@@ -1,5 +1,7 @@
 # Tweetdiary android: A Nimbusbase android sqlite sync demo 
 
+This demo for NimbusBase shows how we sync structure data by replicating whatever is in the local sqlite database and then storing it on top of Google Drive. Please view or run.
+
 * build target: android 4.2
 
 * App link: [Google Play](https://play.google.com/store/apps/details?id=com.nimbusbase.tweetdiary).
