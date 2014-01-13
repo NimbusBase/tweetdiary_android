@@ -8,7 +8,7 @@ This demo for NimbusBase shows how we sync structure data by replicating whateve
  
 
 
-* Main sync code   (in SwipeActivity.java):
+* The main sync code for NimbusBase is in SwipeActivity.java:
 ```java 
 		// four variables for GDriveModel: 
 		//	1, the  Activity to run the sync process;
