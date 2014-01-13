@@ -2,7 +2,7 @@
 ==================
 ## Tweetdiary  android
 
-* **build target ** : android 4.2
+* build target : android 4.2
 
 * Main sync code   (in SwipeActivity.java):
 ```java 
@@ -22,7 +22,8 @@
 ```
 
 
-* **App link** :  [Google Play](https://play.google.com/store/apps/details?id=com.nimbusbase.tweetdiary).
+
+* App link :  [Google Play](https://play.google.com/store/apps/details?id=com.nimbusbase.tweetdiary).
 
 
 
