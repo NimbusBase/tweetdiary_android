@@ -4,6 +4,9 @@
 
 * build target : android 4.2
 
+* App link : [Google Play](https://play.google.com/store/apps/details?id=com.nimbusbase.tweetdiary).
+ 
+
 * Main sync code   (in SwipeActivity.java):
 ```java 
 		// four variables: 
@@ -21,9 +24,6 @@
 		 
 ```
 
-
-
-* App link :  [Google Play](https://play.google.com/store/apps/details?id=com.nimbusbase.tweetdiary).
 
 
 
