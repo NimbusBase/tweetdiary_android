@@ -1,9 +1,8 @@
-# Nimbusbase android  sqlite  sync  demo 
-## Tweetdiary  android
+# Tweetdiary android: A Nimbusbase android sqlite sync demo 
 
-* build target : android 4.2
+* build target: android 4.2
 
-* App link : [Google Play](https://play.google.com/store/apps/details?id=com.nimbusbase.tweetdiary).
+* App link: [Google Play](https://play.google.com/store/apps/details?id=com.nimbusbase.tweetdiary).
  
 
 
