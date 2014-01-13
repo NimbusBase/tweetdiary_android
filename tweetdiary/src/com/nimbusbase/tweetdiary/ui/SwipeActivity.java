@@ -192,11 +192,17 @@ public class SwipeActivity extends Fragment implements OnClickListener,
 		
 		
 		
-		
+		// four variables: 
+		//	1, the  Activity to run the sync process;
+		//  2, the  App name
+		//  3, the  sqlite database  file name;
+		//  4, the  tables need to  sync, if  set null will sync  all tables.
 		gdriveModel = new GDriveModel(SwipeActivity.this.getActivity(), "diary_app", "D", new String[] { "Entry" });
 
+		// google  authorize;
 		gdriveModel.authorize();
 
+		//sync data per  3s
 		gdriveModel.syncThread(3000);
 		
 	
@@ -501,7 +507,7 @@ public class SwipeActivity extends Fragment implements OnClickListener,
 							new String[] { "rowID", "text", "create_time",
 									"tags" }, "tags like'%" + categoryKey + "%'",
 							null, null, null, "rowID  desc");
-					System.out.println("执行了 这一部分~！！！！！！！！！！！！！！！！！！！！！！categoryKey");
+					 
 
 				}else if ( !categoryKey.equals("")  ) {
 					cursor = gdriveModel.DB.getReadableDatabase().query(
@@ -509,7 +515,7 @@ public class SwipeActivity extends Fragment implements OnClickListener,
 							new String[] { "rowID", "text", "create_time",
 									"tags" }, "text like'%" + filterKey + "%'",
 							null, null, null, "rowID  desc");
-					System.out.println("执行了 这一部分~！！！！！！！！！！！！！！！！！！！！！！filterKey");
+					 
 
 
 				} else {
