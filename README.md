@@ -1,5 +1,4 @@
-# Nimbusbase android  sqlite  sync  demo
-==================
+# Nimbusbase android  sqlite  sync  demo 
 ## Tweetdiary  android
 
 * build target : android 4.2
@@ -21,10 +20,5 @@
 		gdriveModel.authorize();
 
 		//sync data per  3s
-		gdriveModel.syncThread(3000);
-		 
+		gdriveModel.syncThread(3000);	 
 ```
-
-
-
-
